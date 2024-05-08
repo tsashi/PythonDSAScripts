@@ -27,5 +27,5 @@ class Solution:
         return maxones
     
 myobj = Solution()
-nums = [0,0,0,1]
-print(myobj.longestOnes(nums, 4))
+nums = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1]
+print(myobj.longestOnes(nums, 3))
